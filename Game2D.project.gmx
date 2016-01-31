@@ -28,7 +28,13 @@
         <sprite>sprites\spr_h_die</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_solid</sprite>
+    <sprites name="objects">
+      <sprite>sprites\spr_solid</sprite>
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_bullet_mirror</sprite>
+      <sprite>sprites\spr_flash</sprite>
+      <sprite>sprites\spr_flash_mirror</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\backgrounds</background>
@@ -37,6 +43,10 @@
   <objects name="objects">
     <object>objects\obj_solid</object>
     <object>objects\obj_master_chief</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\obj_bullet_mirror</object>
+    <object>objects\obj_flash</object>
+    <object>objects\obj_flash_mirror</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
