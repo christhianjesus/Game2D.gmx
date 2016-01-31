@@ -28,9 +28,19 @@
         <sprite>sprites\spr_h_die</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_solid</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\backgrounds</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_solid</object>
+    <object>objects\obj_master_chief</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
