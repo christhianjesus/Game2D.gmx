@@ -34,12 +34,17 @@
       <sprite>sprites\spr_bullet_mirror</sprite>
       <sprite>sprites\spr_flash</sprite>
       <sprite>sprites\spr_flash_mirror</sprite>
+      <sprite>sprites\spr_life</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\backgrounds</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_solid</object>
     <object>objects\obj_master_chief</object>
@@ -47,6 +52,9 @@
     <object>objects\obj_bullet_mirror</object>
     <object>objects\obj_flash</object>
     <object>objects\obj_flash_mirror</object>
+    <object>objects\obj_elite</object>
+    <object>objects\obj_hunter</object>
+    <object>objects\info</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
